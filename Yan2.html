@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura con Columnas</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fb6e37;
+            padding: 10px 20px;
+        }
+
+
+        /* Estilo para controlar el tamaño fijo del logotipo pequeño */
+        .logo-pequeno {
+            width: 150px;
+            height: auto;
+            display: block;
+        }
+
+
+        .barra-navegacion {
+            display: flex;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+
+        .boton-nav {
+            text-decoration: none;
+            color: brown;
+            background-color: burlywood;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-family: sans-serif;
+            transition: background-color 0.3s;
+        }
+
+
+        .boton-nav:hover {
+            background-color: #309eac;
+            color: white;
+        }
+
+
+        .boton-nav.activo {
+            background-color: rgba(235, 170, 91, 0.744);
+            color: aliceblue;
+            font-weight: bold;
+        }
+
+
+        main {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+
+        aside {
+            width: 25%;
+            background-color: #7c3c9c;
+            padding: 15px;
+            color: white;
+        }
+
+
+        section {
+            width: 75%;
+            background-color: #2cc0e9;
+            padding: 15px;
+            color: white;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <div>
+            <h1 style="margin: 0;">Servicios</h1>
+
+
+            <!-- Se corrigió el nombre de la clase a 'barra-navegacion' -->
+            <nav class="barra-navegacion">
+                <!-- Se conectaron los enlaces a tus archivos .html reales -->
+                <a href="yan1.html" class="boton-nav ">Inicio</a>
+                <a href="yan2.html" class="boton-nav activo">Servicios</a>
+                <a href="yan3.html" class="boton-nav">Contacto</a>
+            </nav>
+        </div>
+        <!-- Se corrigió la sintaxis de las comillas e imagen -->
+        <img src="https://media.tenor.com/9WWjW7o7xRIAAAAm/bear.webp" alt="logo de mi sitio web" title="logo de la marca" class="logo-pequeno">
+    </header>
+
+
+    <main>
+        <aside>
+           
+            <h3>reseña de clientes</h3>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYkul3FAvCqf0yn-NfmBxZxGbingpangLh82v-lnJjWg&s=10" alt="logo de mi sitio web" title="logo de la marca" class="logo-pequeno" >
+
+
+
+
+        </aside>
+        <section>
+            <article>
+ 
+             <h2>Nuestros Servicios y Precios</h2>
+
+
+<h3>1. Cono o Vaso Simple</h3>
+<p>Una bola de tu helado favorito en cono crujiente o vaso, con una salsa a elegir (chocolate, cajeta o fresa).</p>
+<p><strong>Sencillo: $45 MXN | Doble: $70 MXN</strong></p>
+
+
+<h3>2. Sundae Especial</h3>
+<p>Dos bolas de helado bañadas en jarbe caliente, crema batida, chispas a tu gusto y una cereza arriba.</p>
+<p><strong>Precio: $85 MXN</strong></p>
+
+
+<h3>3. Malteada Artesanal</h3>
+<p>Cremosa malteada preparada al momento con tu sabor de helado preferido, leche entera o vegetal y toppings.</p>
+<p><strong>Mediana: $90 MXN | Grande: $115 MXN</strong></p>
+            </article>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>Visitanos!!!</p>
+    </footer>
+</body>
+
+
+</html>
